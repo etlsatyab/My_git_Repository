@@ -1,0 +1,9 @@
+with OREDER_DET AS
+(
+ SELECT 
+ O_CUSTKEY,
+ O_ORDERSTATUS,
+ O_ORDERDATE,
+ O_TOTALPRICE
+FROM mydb.public.ORDERS) 
+select * from OREDER_DET
