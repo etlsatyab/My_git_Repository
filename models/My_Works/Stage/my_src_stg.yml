@@ -1,0 +1,14 @@
+sources:
+  - name: public
+    databse: mydb
+    schema: public
+    tables: 
+     - name: customers
+     - name: orders
+     - name: nations
+tests:
+
+
+
+
+
