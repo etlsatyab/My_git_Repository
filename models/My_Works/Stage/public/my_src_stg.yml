@@ -2,13 +2,7 @@ sources:
   - name: public
     database: mydb
     schema: public
-    tables: 
-     - name: customers
-     - name: orders
-     - name: nations
-
-
-
-
-
-
+    tables:
+      - name: customers
+      - name: orders
+      - name: nations
